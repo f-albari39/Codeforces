@@ -3,13 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "watermelon", "watermelon\watermelon.csproj", "{BFF8CBDE-F303-4347-98C6-01D0DBF0AE08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "watermelon", "watermelon\watermelon.csproj", "{BFF8CBDE-F303-4347-98C6-01D0DBF0AE08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "way_too_long_words", "way_too_long_words\way_too_long_words.csproj", "{D1ACF6FA-2EEE-479B-ABE5-A663B84202C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "way_too_long_words", "way_too_long_words\way_too_long_words.csproj", "{D1ACF6FA-2EEE-479B-ABE5-A663B84202C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "team", "team\team.csproj", "{F7188105-E345-43DE-8549-D9E463061587}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "team", "team\team.csproj", "{F7188105-E345-43DE-8549-D9E463061587}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "theatre_square", "theatre_square\theatre_square.csproj", "{A85B0BE9-5C2F-4D26-A71D-2E562AE357DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "theatre_square", "theatre_square\theatre_square.csproj", "{A85B0BE9-5C2F-4D26-A71D-2E562AE357DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "next_round", "next_round\next_round.csproj", "{5886630B-0557-4144-8CD1-1EB60301EBBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domino_piling", "domino_piling\domino_piling.csproj", "{0CC2524D-6E20-48EE-B7A3-41C6E6570A4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bit++", "bit++\bit++.csproj", "{4759E784-1B5E-4CBC-9DB9-91FC34527D08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "beautiful_matrix", "beautiful_matrix\beautiful_matrix.csproj", "{ECA9CCEE-3FBD-4499-8950-A9AD55B467CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "petya_and_strings", "petya_and_strings\petya_and_strings.csproj", "{25C998E6-5B55-4648-BDBB-06AEB25FEDD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +43,26 @@ Global
 		{A85B0BE9-5C2F-4D26-A71D-2E562AE357DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A85B0BE9-5C2F-4D26-A71D-2E562AE357DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A85B0BE9-5C2F-4D26-A71D-2E562AE357DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5886630B-0557-4144-8CD1-1EB60301EBBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5886630B-0557-4144-8CD1-1EB60301EBBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5886630B-0557-4144-8CD1-1EB60301EBBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5886630B-0557-4144-8CD1-1EB60301EBBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CC2524D-6E20-48EE-B7A3-41C6E6570A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC2524D-6E20-48EE-B7A3-41C6E6570A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC2524D-6E20-48EE-B7A3-41C6E6570A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC2524D-6E20-48EE-B7A3-41C6E6570A4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4759E784-1B5E-4CBC-9DB9-91FC34527D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4759E784-1B5E-4CBC-9DB9-91FC34527D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4759E784-1B5E-4CBC-9DB9-91FC34527D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4759E784-1B5E-4CBC-9DB9-91FC34527D08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECA9CCEE-3FBD-4499-8950-A9AD55B467CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA9CCEE-3FBD-4499-8950-A9AD55B467CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA9CCEE-3FBD-4499-8950-A9AD55B467CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA9CCEE-3FBD-4499-8950-A9AD55B467CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25C998E6-5B55-4648-BDBB-06AEB25FEDD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25C998E6-5B55-4648-BDBB-06AEB25FEDD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25C998E6-5B55-4648-BDBB-06AEB25FEDD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25C998E6-5B55-4648-BDBB-06AEB25FEDD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
